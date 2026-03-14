@@ -43,6 +43,7 @@
     .photo-card,.map-card { border:1px solid var(--line); border-radius:var(--radius); background:linear-gradient(180deg,rgba(255,255,255,.96),rgba(255,251,245,.94)); box-shadow:var(--shadow); transition:transform .28s ease, box-shadow .28s ease; }
     .photo-card:hover,.map-card:hover { transform:translateY(-6px); box-shadow:var(--shadow-strong); }
     .photo-frame { height:240px; border-radius:18px; background:linear-gradient(180deg,rgba(10,8,6,.1),rgba(10,8,6,.52)),url('daves-hot-chicken-store.jpg') center/cover no-repeat; margin-bottom:18px; }
+.photo-frame.storefront { background:linear-gradient(180deg,rgba(10,8,6,.1),rgba(10,8,6,.52)),url('dhc-storefront2.png') center/cover no-repeat; }
     .map-link { display:inline-flex; align-items:center; justify-content:center; margin-top:18px; padding:12px 18px; border-radius:999px; background:linear-gradient(135deg,#d7542d 0%,var(--brand) 100%); color:#fffaf4; font-size:.88rem; font-weight:700; letter-spacing:.08em; text-transform:uppercase; }
     .footer-note { margin-top:28px; color:var(--muted); font-size:.98rem; }
     @media (max-width:1024px) { .brand-overview,.photo-grid,.map-grid,.section-head { grid-template-columns:1fr; display:block; } .section-head p { margin-top:12px; } }
@@ -100,7 +101,7 @@
           <p>As new locations open across Kansas, this space will highlight restaurant imagery, opening-day celebrations, and moments from the communities we serve.</p>
         </div>
         <div class="photo-grid">
-          <article class="photo-card"><div class="photo-frame" aria-hidden="true"></div><h3>Exterior Storefronts</h3><p>Exterior views of our restaurants, signage, and site progress as locations come to life across Kansas.</p></article>
+          <article class="photo-card"><div class="photo-frame storefront" aria-hidden="true"></div><h3>Exterior Storefronts</h3><p>Exterior views of our restaurants, signage, and site progress as locations come to life across Kansas.</p></article>
           <article class="photo-card"><div class="photo-frame" aria-hidden="true"></div><h3>Interior Atmosphere</h3><p>Dining room spaces, murals, and the atmosphere that creates a welcoming guest experience.</p></article>
           <article class="photo-card"><div class="photo-frame" aria-hidden="true"></div><h3>Community Events</h3><p>Ribbon cuttings, team celebrations, and local partnerships that mark each restaurant's connection to the community.</p></article>
         </div>
